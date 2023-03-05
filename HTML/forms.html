@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        input:invalid + span::after
+        {
+            content: "✖";
+        }
+        input:valid + span::after
+        {
+            content: "✓";
+            display: block;
+        }
+    /* datalist{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        writing-mode: vertical-rl;
+        width: 200px;
+    }
+    input[type="range"] 
+    {
+        width: 200px;
+        margin: 10;
+        appearance: slider-vertical;
+    } */
+    </style>
+</head>
+<body>
+    <form action="">
+    <input type="button" value="Click Me!" accesskey="m">
+    <input type="checkbox" name="full stack Development" value="HTML" accesskey="H" >
+    <input type="checkbox"  value="CSS" accesskey=" ">
+    <input type="color" value="#BF3325">
+    <input type="date" class="date" min="2023-01-01" max="2023-01-31" required>
+    <span></span>
+    <input type="email" name="em1" id="" minlength="3" maxlength="100" size="30" value="email" title="enter email in correct format" placeholder="enter email in correct format" multiple>
+    <input type="email" name="" id="" list="emaillist">
+<datalist id="emaillist" class="emaillist">
+    <option value="g1@gmail.com"></option>
+    <option value="g2@gmail.com"></option>
+</datalist>
+<input type="file" accept=".jpg,.jpeg" multiple name="file">
+<input type="hidden" name="" id="" value="testing">
+<input type="image" alt="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-ASaYVcpySkz8kHga2txKDH7BW1w9V9J4NWtELwspA&s" 
+            width="50" height="30" value="">
+<input type="month" name="month" id="" value="" min="2023-01" max="2024-12" step="2" >
+<input type="number" name="" id="" min="90" max="300" step="20" list="month_list">
+<datalist id="month_list">
+    <option value="test"></option>
+    <option value="test1"></option>
+</datalist>
+<input type="password" name="pass" id="" placeholder="password here" value="test1" inputmode="url">
+<input type="radio" name="gender" id="gender_male" value="Male" >
+<label for="gender_male">Male</label>
+<input type="radio" name="gender" value="Female">
+
+<input type="range" name="rlst" id="rlst"  list="range_list">
+<datalist id="range_list">
+    <option value="40" label="40"></option>
+    <option value="70" label="70"></option>
+</datalist>
+
+<input type="range" id="tempB" name="temp" list="values" />
+
+<datalist id="values">
+  <option value="0" label="very cold!"></option>
+  <option value="25" label="cool"></option>
+  <option value="50" label="medium"></option>
+  <option value="75" label="getting warm!"></option>
+  <option value="100" label="hot!"></option>
+</datalist>
+
+<input type="reset" value="reset">
+<input type="search" name="" id="" autocorrect="on" spellcheck="true" placeholder="enter tem for search" min="2" maxlength="10" size="2">
+<input type="submit" formenctype="text/plain">
+<input type="tel" name="" id="" minlength="10" maxlength="20" value="+91" placeholder="enter mobile" pattern="[0-3]{3}-[4-10]{4}" inputmode="numeric">
+
+</form>
+<fieldset>
+    <legend>Select anyone</legend >
+    <label for=""><input type="radio" name="lang" id="" value="HTML"> HTML</label>
+    <label for=""><input type="radio" name="lang" id="" value="CSS">CSS</label>
+</fieldset>
+</body>
+</html>

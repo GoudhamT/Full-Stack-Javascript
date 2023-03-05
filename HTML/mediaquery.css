@@ -1,0 +1,53 @@
+@media screen{
+    h1{
+        background-color: yellow;
+    }
+}
+@media screen and (orientation:portrait){
+    h1{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:600px), screen and (orientation:potrait){
+    p{
+        background-color: brown;
+    }
+    
+}
+
+@media not (max-width:600px){
+    span>pre{
+       border: 3px dotted green; 
+    }
+    
+}
+@media only screen and (max-width:600px){
+    input[type="button"]{
+        background-color: aqua;
+    }
+}
+
+@media only screen and (min-width:600px){
+    input[type="button"]{
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width:768px){
+    input[type="button"]{
+        background-color: violet;
+    }
+}
+
+@media only screen and (min-width:992px){
+    input[type="button"]{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    input[type="button"]{
+        background-color: orange;
+    }
+}

@@ -1,0 +1,14 @@
+input:invalid+ span::after{
+  content: '\2715';
+  display: inline-block;
+}
+input:valid + span::after{
+    content: '\2713';
+}
+a::before{
+    content: '🔗';
+    display: inline-block;
+    width: 15px;
+    height: 1rem;
+    margin-right: 5px;
+}

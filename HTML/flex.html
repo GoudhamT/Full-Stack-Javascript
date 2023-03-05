@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        ul {
+            border: 1px solid orange;
+            height: 500px;
+            width: 600px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* flex-flow: row wrap; */
+            justify-content: center;
+            align-items: flex-start
+            /* align-content: space-around; */
+        }
+        li{
+            margin: 10px;
+            padding-left: 0%;
+            border: 2px solid blue ;
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+        }
+        .order{
+            order: 0;
+            /* flex-grow: 5; */
+            /* flex-shrink: 2; */
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="order">test1</li>
+        <li>test2</li>
+        <li>test3</li>
+        <li>test4</li>
+        <li>test5</li>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda est consequuntur, dolores porro, omnis sapiente quam nulla, facere dolor repellat? Deleniti similique sunt dignissimos, laboriosam incidunt delectus et deserunt sit dicta, unde dolores impedit nemo omnis, magnam totam temporibus? Nostrum esse id dolorum, vel officiis itaque dolorem impedit repudiandae?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, nostrum. Soluta mollitia sed nostrum laudantium suscipit, earum maiores dicta! Reiciendis, accusantium voluptas perspiciatis facilis aspernatur quae? Necessitatibus praesentium vel voluptatum!</p>
+        <!-- <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul> -->
+        
+        <!-- <li>test6</li>
+        <li>test7</li>
+        <li>test8</li> -->
+    </ul>
+    
+</body>
+</html>
