@@ -14,6 +14,10 @@ I wrote many blogs on HTML and CSS
 
 [Audio and Video](https://hashnode.com/edit/clejwxun100030amj681dgxpb)
 
+[CSS Selectors](https://goudhamt.hashnode.dev/css-basics-and-selectors)
+
+[Pseudo Selectors](https://goudhamt.hashnode.dev/pseudo-selectors)
+
 [Flex in CSS](https://hashnode.com/edit/clefpgvo0000s09ml85fmc1q5)
 
 [Position in CSS](https://hashnode.com/edit/clemn4ubc000009le5oza2rby)
@@ -23,4 +27,5 @@ I wrote many blogs on HTML and CSS
 [CSS Box Model](https://hashnode.com/edit/clevo6dth000409mo77trhgst)
 
 [Grid](https://hashnode.com/edit/clezj1d8z001709ky6gakfjkt)
+
 
