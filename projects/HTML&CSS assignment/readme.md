@@ -4,10 +4,10 @@ I need exactly design website like below
 
 ## Project1:
 
-[Output of project1](./Project%201/output.png)
+[Deployed link of project1](https://befocus-beproductive.netlify.app)
 
 ## Project2:
-[Output of project2](./Project%202/output.png)
+[Deployed link of project2](https://htmlcssmedifine.netlify.app)
 
 ## project3:
-[output of project3](./Project%203/Output.png)
+[Deployed link of  project3](https://justice-top-priority.netlify.app)
