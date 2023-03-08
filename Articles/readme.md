@@ -14,6 +14,8 @@ I wrote many blogs on HTML and CSS
 
 [Audio and Video](https://hashnode.com/edit/clejwxun100030amj681dgxpb)
 
+[list in HTML](https://goudhamt.hashnode.dev/lists-in-html)
+
 [CSS Selectors](https://goudhamt.hashnode.dev/css-basics-and-selectors)
 
 [Pseudo Selectors](https://goudhamt.hashnode.dev/pseudo-selectors)
