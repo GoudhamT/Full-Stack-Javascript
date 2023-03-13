@@ -23,10 +23,19 @@
                 <li class="hover:text-white">FAQ</li>
                 <li class="hover:text-white">Learn</li>
             </ul>
-            <div class="rightnav flex">
-                <input type="text" name="" id="" placeholder="search docs" class="pt-4 ml-8 bg-slate-600 text-white align-middle">
-                <input type="button" value="Download" class="bg-blue-700 pt-4 text-white w-40 hover:bg-blue-800">
-            </div>
+            <form class="flex ml-20">
+                <div class="search flex h-12 w-32">
+                    <button type="submit" class="bg-slate-600   hover:bg-slate-800 text-white w-32">
+                        <img src="./pics/search.svg" alt="button" class=" bg-slate-600 h-12 w-4 hover:bg-slate-800 inline-block"> search docs
+                    </button>
+                    <!-- <input type="text" name="" id="" placeholder="search docs" class="bg-slate-600 text-white align-middle hover:bg-slate-800 "> -->
+                </div>
+                <div class="down flex h-12 w-32 ">
+                    <button type="submit" class="bg-blue-700 text-white font-semibold hover:bg-blue-900 w-32">
+                        <img src="./pics/download.svg" alt="button" class=" bg-blue-700 h-12 w-4 hover:bg-blue-900 inline-block">Download
+                    </button>
+                </div>
+            </form>
         </div>
     </nav>
     <p class="text-white bg-slate-900 text-center h-10 pt-14"> <a href="https://code.visualstudio.com/updates/v1_75" class="hover:underline text-blue-700">Version 1.75</a>  is now available! Read about the new features and fixes from January.</p>
@@ -38,10 +47,13 @@
                 <strong class="text-zinc-100 text-5xl font-sans"> Redefined.</strong>
             </h1>
             <p class="text-zinc-400 text-base font-light font-sans">Free. Built on open source. Runs everywhere.</p>
-            <button class="bg-blue-700 text-white hover:bg-blue-800 h-20 mb-2.5">Download for Windows </button>            
-            <!-- <button class="bg-blue-700 hover:bg-blue-800 h-20 w-10"> 
-                <embed src=".\pics\down.svg" type=""> 
-            </button> -->
+            <div class="download flex gap-1 justify-center">
+                <button class="bg-blue-700 text-white hover:bg-blue-800 h-20 mb-2.5">Download for Windows 
+                <pre class="text-xs font-sans">Stable Build</pre>
+                </button>
+                <img src="./pics/chevronDown.svg" alt="" class="bg-blue-800 h-20 w-8">
+            </div>
+           
             <p class="text-zinc-400 bg-slate-900 h-10 text-sm pt-3 mb-2.5"> 
                 <a href="https://vscode.dev/" target="_blank" class="hover:underline text-blue-500">Web</a>,
                 <a href="https://code.visualstudio.com/insiders/" class="hover:underline text-blue-500">Insiders edition</a> or
@@ -282,70 +294,36 @@
             <p>GitHub, Azure Repos, and local files.</p>
         </div>
     </section>
-    <div class="terms border-2 border-solid border-red-600 h-40 text-center text-gray-500">
+    <div class="terms h-40 text-center text-gray-500">
         <p class="font-semibold">License and Privacy Terms</p>
         <p class="font-semibold mt-4">By downloading and using Visual Studio Code, you agree to the <a href="https://code.visualstudio.com/License/" class="text-blue-500"> license terms</a>and <a href="https://privacy.microsoft.com/en-US/privacystatement" class="text-blue-500">privacy statement</a>. VS Code</p>
         <p class="font-semibold mt-4">automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not</p>
         <p class="font-semibold mt-4">to have this data sent please go see <a href="https://code.visualstudio.com/docs/supporting/FAQ#_how-to-disable-crash-reporting" class="text-blue-500">How to Disable Crash Reporting</a> to learn how to disable it.</p>
     </div>
-    <footer class="bg-slate-900 flex"> 
+    <footer class="bg-slate-900 flex h-20 text-white justify-center" > 
+        <div class="con flex align-middle gap-10  self-center">
+            <span class="font-sans text-xs ">Hello from Seattle.</span>
+            <span class="hover:text-violet-600 font-sans text-xs ">Follow @code</span>
+            <ul class="flex gap-2">
+                <li> <a href="https://github.com/Microsoft/vscode/" target="_blank" class="border-2 border-solid border-white-600 text-black border-[#f8fafc] bg-[#f8fafc]">
+                    <img src="./pics/cat_star.svg" alt="" class="inline-block h-4">
+                    <span class="h-4 text-[#1e293b] font-semibold text-xs w-20">Star</span>
+                    </a>
+                </li>
+            <li> <a href="https://github.com/Microsoft/vscode/stargazers" target="_blank" class="border-2 border-solid border-white-600 text-black border-[#f8fafc] bg-[#f8fafc]">
+                <img src="./pics/cat_star.svg" alt="" class="inline-block h-4">
+                <span class="h-4 text-[#1e293b] font-semibold text-xs w-20 hover:text-blue-700 focus:bg-green-500">143,586</span>
+                </a>
+            </li>
+            </ul>  
+            <div class="btrt ml-96 flex gap-10">
+                <a href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d" class="hover:text-violet-600 font-sans text-xs"> Support</a>
+                <a href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d" class="hover:text-violet-600 font-sans text-xs">Privacy</a>
+                <a href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d" class="hover:text-violet-600 font-sans text-xs">Terms of Use</a>
+                <a href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d" class="hover:text-violet-600 font-sans text-xs">License</a>
+            </div>    
+            <img src="./pics/microsoft-logo.png" alt="" class="h-4">                
+        </div>
     </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="search flex pl-[10px] border-solid border-2 border-orange-600 hover:bg-blue-500">
-                <img src="./pics/search.svg" alt="" class="w-6">
-                <input type="search" name="search" id=""  placeholder="search docs">
-            </div>
-            <div class="last flex">                
-                <input type="button" value="Download" class="align-middle bg-blue-500" >
-            </div> -->
-   
-    <!-- <nav class="pt-[15px] px-[70px] ">
-        <ul class="flex text-zinc-400 " >
-            <img src=".\pics\logo.png" alt="" class="w-7 bg-slate-800">
-            <li class="text-[20px] text-white">Visual Studio Code</li>
-            <li class="before:content-[url('./pics/logo.png')] align-top">Visual Studio Code</li>
-            <li class="hover:text-white">Docs</li>
-            <li class="hover:text-white">Updates</li>
-            <li class="hover:text-white">Blog</li>
-            <li class="hover:text-white">API</li>
-            <li class="hover:text-white">Extensions</li>
-            <li class="hover:text-white">FAQ</li>
-            <li class="hover:text-white">Learn</li>
-            <li>Search Docs</li>
-            <li>Download</li>
-        </ul>
-        
-    </nav> -->
