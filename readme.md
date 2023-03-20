@@ -1,6 +1,6 @@
 # Repository has complete details of Full Stack Javascript
 
-### I am progressing in learning full stack javascipt from SAP ABAP background(with 12years of experience)
+### I am upskilling my tech stack full stack javascipt from SAP ABAP background(with 12years of experience)
 
 ## Articles
 
