@@ -71,4 +71,4 @@ function args()
 }
 
 console.log(args(12,4,6,8,10))
-console.log(args[1,3,5,7,9,11])
+// console.log(args[1,3,5,7,9,11])

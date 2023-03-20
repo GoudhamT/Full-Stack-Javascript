@@ -11,3 +11,4 @@ console.log(`the type is ${typeof(mynull)} and values is ${mynull}`)
 
 let myundef = undefined
 console.log(`the type is ${typeof(myundef)} and values is ${myundef}`)
+
