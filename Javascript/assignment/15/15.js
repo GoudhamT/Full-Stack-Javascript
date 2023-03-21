@@ -5,7 +5,7 @@
     - 50-59, D
     - 0-49, F */
 
-    const prompt=require("prompt-sync")({sigint:true});
+    // const prompt=require("prompt-sync")({sigint:true});
 
     let score = parseInt(prompt("enter your score: "))
     

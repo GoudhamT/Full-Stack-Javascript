@@ -4,7 +4,7 @@
     - March, April or May, the season is Spring
     - June, July or August, the season is Summer*/
 
-    const prompt=require("prompt-sync")({sigint:true});
+    // const prompt=require("prompt-sync")({sigint:true});
 
     let season = prompt("Enter your favourite month: ")
     season = season.toUpperCase()
