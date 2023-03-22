@@ -1,0 +1,1 @@
+export let tech = ["HTML","CSS","JAVASCRIPT"]
