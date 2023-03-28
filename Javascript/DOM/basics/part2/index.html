@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Part2</title>
+</head>
+<body>
+    
+    <h1> Learning DOM functionality from JS</h1>
+    <p>Scenario: to add list of item under empty unordered list which </p>
+    <ul>
+        <!-- insert li here -->
+    </ul>
+    <script>
+        const mylist = 
+        `
+        <li>Goudham</li>
+        <li>Yazhini</li>
+        <li>Niralya</li> 
+        <li>Nithila</li> 
+        `
+        const getul = document.querySelector('ul')
+        getul.innerHTML = mylist
+        liText = getul.firstElementChild.innerText
+// add element inside li using elementchild
+    getul.firstElementChild.innerHTML = `<span> Family Man: </span> ${liText}`
+
+    // create new element dynamically
+    let heads = document.createElement('h2')
+    heads.textContent = "Dynamically heading"
+    heads.className = 'dynamicH2'
+    heads.style.backgroundColor = 'red'
+    // heads.style.fontSize = '10px'
+    heads.style.color = 'black'
+    document.body.appendChild(heads)
+
+    for (let i=1;i<=3;i++)
+    {
+        let para = document.createElement('p')
+        para.textContent = `this is para${i}`
+        para.style.fontSize = '19px'
+        para.style.color = 'orange'
+        para.className = 'pforpara'
+        document.body.appendChild(para)
+    }
+    function submit()
+        {
+            let res = parseInt(prompt("What is 100-90"))
+            if(res == 10)
+            {
+                // alert("yes function called")
+                let bt = document.getElementsByTagName('button')
+                bt[0].style.color = 'blue'
+                bt[0].style.fontSize = '30px'
+                bt[0].style.backgroundColor = 'red'
+            }
+        }
+    </script>
+    <button onclick="submit()" class="fsjs2bt">Submit</button>
+</body>
+</html>
