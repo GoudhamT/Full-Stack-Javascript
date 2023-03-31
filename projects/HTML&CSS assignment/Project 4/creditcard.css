@@ -120,4 +120,80 @@ nav,ul{
     margin-top: -500px;
     margin-left: 100px;
 }
-
+.log_head{    
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: rgb(40, 35, 35);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page2_s2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+.page2_s2_left{
+    width: 50%;
+    font-size: 30px;
+    font-weight: 50;
+    margin-left: 60px;
+}
+#page2_s2_pink{
+color: rgb(169, 31, 160);
+}
+.page2_s2_right{
+    width: 25%;
+    margin-right: 130px;
+    height: 90px;
+    color: silver;
+}
+.page_s3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 300px;
+    position: relative;
+}
+#dollar{
+    border: 2px solid silver;
+    background-color: rgb(17, 16, 16);
+    height: 180px;
+    width: 240px;
+    text-align: center;
+}
+#cloud{
+    border: 2px solid silver;
+    background-color: rgb(60, 55, 55);
+    height: 180px;
+    width: 240px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#lock{
+    border: 2px solid silver;
+    background-color: rgb(17, 16, 16);
+    height: 180px;
+    width: 240px;
+    text-align: center;
+}
+.page_s3> div>img{
+    height: 90px;
+}
+.page_s3> div>h4{
+    width: 140px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#cloud_anytime{
+    width: 180px;
+    /* border: 2px solid red;  */
+    text-align: center; 
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
