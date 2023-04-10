@@ -192,8 +192,73 @@ color: rgb(169, 31, 160);
 }
 #cloud_anytime{
     width: 180px;
-    /* border: 2px solid red;  */
+   
     text-align: center; 
     margin-left: 30px;
     margin-bottom: 20px;
+}
+.unique{
+ background-color: #efe8effa;
+ height: 150vh
+}
+.unique>h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 50;
+}
+.unique>h3{
+    text-align: center;
+    color: rgb(174, 71, 177);
+    font-weight: 200;
+    font-size: 40px;
+}
+.unique>p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.541);
+    width: 450px;
+    margin-left: 380px;
+}
+.unique>img{
+    height: 700px;
+    margin-left: 220px;
+    margin-top: -40px;
+}
+.feedback{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.feedback>h1{
+    font-size: 50px;
+    font-weight: 50;
+    height: 150px;
+    
+    width: 550px;
+    margin-left: 300px;
+}
+.feedback>h1>span{
+    color: rgb(174, 71, 177);
+}
+.feedback>p{
+    color: rgb(229, 216, 216);
+    text-align: center;
+    width: 350px;
+    margin-left: 400px;
+}
+.custom{
+    /* border: 2px solid red;  */
+    position: relative;
+}
+#pic_6773{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+#pic_6774{
+    width: 100%;
+}
+.custom>.text{
+    /* border: 2px solid red;  */
+    position: absolute;
 }
