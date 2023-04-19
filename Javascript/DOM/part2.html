@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Browser pop ups</title>
+</head>
+<body>
+    
+    <h1>Learning how pop up works in JS</h1>
+    <p id="popup_val"></p>
+
+    <script>
+        // alert("JS popup from browser")
+        // setTimeout(() => {
+        //     alert("JS popup from browser")
+        // }, 2000);
+        
+        // let myconf = confirm("Please click OK or Cancel")
+        // if(myconf)
+        // {
+        //     document.getElementById("popup_val").innerText = `You clicked OK`
+        // }
+        // else{
+        //     document.getElementById("popup_val").innerText = `You clicked Cancel`
+        // }
+
+        let myres = prompt("Please enter answer for 100-80")
+        if(myres == 20)
+        {
+            document.getElementById("popup_val").innerText = "You answer is correct"
+            document.getElementById("popup_val").style.backgroundColor = "green"
+        }
+        else{
+            document.getElementById("popup_val").innerText = "You answer is wrong"
+            document.getElementById("popup_val").style.backgroundColor = "red"
+        }
+    </script>
+</body>
+</html>
