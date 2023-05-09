@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+    <h1> Practicing various events</h1>
+    <p class="para" id='p1'></p>
+    <script>
+        document.addEventListener("click",clicking)
+        document.addEventListener("dblclick",dbclicking)
+        document.addEventListener("mouseenter",mousetr)
+        // document.addEventListener("mouseleave",mouselv)
+
+
+        function clicking(){
+            document.body.querySelector('p').innerText = 'Mouse clicked'
+            document.body.style.backgroundColor = '#e28743'
+        }
+
+        function dbclicking(){
+            document.getElementsByClassName('para')[0].innerHTML = `Mouse double clicked`
+            document.body.style.backgroundColor = '#063970'
+        }
+
+        function mousetr()
+        {
+            document.getElementById('p1').textContent = 'Mouse entered'
+            document.body.style.backgroundColor = '#6a1eb0'
+        }
+
+        function mouselv()
+        {
+            document.getElementsByTagName('p')[0].remove()
+            document.body.style.backgroundColor = '#abdbe3'
+        }
+    </script>
+</body>
+</html>

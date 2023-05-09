@@ -8,9 +8,13 @@
 </head>
 <body>
     <h1>DOM Part 2 learing</h1>  
-    <ul></ul>  
+    <ul></ul> 
+    <button onclick="answerme()">Click Me</button> 
     <script>
 //Create element dynamically
+        para_int = parseInt(prompt("Enter any number to create dynamic element"))
+        
+        // prompt("enter")
         let my_p = document.createElement('p')
         my_p.className = 'mypara'
         my_p.style.fontSize = '20px';        
@@ -24,7 +28,36 @@
         <li>Node Js </li>
         `
         document.body.querySelector('ul').innerHTML = myc_li
+        for(i=1;i<=para_int;i++)
+        {
+            const int_para = document.createElement('p')
+            int_para.textContent = `This is for paragraph ${i}`
+            int_para.id = i
+            int_para.style.fontSize = '19px'
+            // int_para.style.color = 'blue'
+            document.body.appendChild(int_para)
+        }
+        let para_rmv = document.getElementById('4')
+        para_rmv.remove()
+        function answerme()
+        {
+            let answer = parseInt(prompt("Solve 40-30: "))
+            if (answer==10)
+            {
+                console.log(answer)
+                para_rmv = document.getElementById('3')
+                para_rmv.innerText = "Success answer is correct"
+                document.body.style.backgroundColor = 'pink'
+                document.body.style.color = 'white'
+            }
+            else{
+                para_rmv = document.getElementById('5')
+                para_rmv.innerText = "Failed answer is wrong"
+                document.body.style.backgroundColor = 'red'
+                document.body.style.color = 'white'
+            }
+        }
     </script>
     
 </body>
-</html>
+</html> 
