@@ -1,19 +1,28 @@
-let accordian = document.querySelectorAll(".accordian h3");
-accordian.forEach((element) => {
-  element.addEventListener("click", () => {
-    let para = element.nextElementSibling;
-    if (para.style.display === "block") {
-      para.style.display = "none";
-    } else {
-      para.style.display = "block";
-    }
-  });
-});
+# DOM Assignment 2
+## Task 1: 
+1. Change contact menu to Projects menu
+2. Show Achievement ,hobbies paragraph
 
+![task1output](../secondAssignmentImage/task1Output.png)
+
+## Code output
+```
 document.querySelector('header nav ul').children[2].innerText = 'Projects'
+
 document.querySelectorAll('.accordian')[2].children[1].style.display = 'block'
+
 document.querySelectorAll('.accordian')[3].children[1].style.display = 'block'
 
+```
+
+## Task 2: 
+1. Add skills as heading in accordian div
+2. Add explanation paragraph about possessed skills
+
+![task1output](../secondAssignmentImage/task2Output.png)
+
+## Code output
+```
 skill_h3 = document.createElement('h3')
 skill_h3.textContent = 'Skills'
 
@@ -33,4 +42,4 @@ skill_div.appendChild(skill_p)
 //Finally appending local DIV
 document.querySelector('.accordian-wrapper').appendChild(skill_div)
 
-
+```

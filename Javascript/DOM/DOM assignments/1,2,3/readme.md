@@ -1,4 +1,4 @@
-# DOM Assignments 
+# DOM Assignment 1
 ## Task 1: 
 1. Add Hire Me option in header navigation
 2. Change contact menu to Projects menu
